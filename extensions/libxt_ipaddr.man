@@ -1,0 +1,9 @@
+.TP
+[\fB!\fP] \fB--ipsrc\fP \fIaddr\fP
+Match packets that have \fIaddr\fP as source address.
+.TP
+[\fB!\fP] \fB--ipdst\fP \fIaddr\fP
+Match packets that have \fIaddr\fP as destination address.
+.PP
+The ipaddr module serves only as a demonstration. It is equivalent to the
+iptables \fB-s\fP and \fB-d\fP options, but ipaddr does not support masks.

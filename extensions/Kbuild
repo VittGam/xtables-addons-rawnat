@@ -34,5 +34,7 @@ obj-${build_pknock}      += pknock/
 obj-${build_psd}         += xt_psd.o
 obj-${build_quota2}      += xt_quota2.o
 
+obj-${build_ipaddr}   += xt_ipaddr.o
+
 -include ${M}/*.Kbuild
 -include ${M}/Kbuild.*
